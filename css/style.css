@@ -185,13 +185,13 @@ a{
   position:absolute;
   z-index:1;
 
-  /* PRATO MAIS PARA A ESQUERDA */
-  right:10%;
+  /* PRATO EM CIMA DA TÁBUA CENTRAL */
+  right:32%;
 
-  /* MESMA ALTURA */
+  /* MANTÉM A ALTURA */
   top:19%;
 
-  /* MESMO TAMANHO */
+  /* MANTÉM O TAMANHO */
   width:min(39vw,600px);
 
   transform:none;
