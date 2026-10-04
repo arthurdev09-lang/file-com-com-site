@@ -185,10 +185,10 @@ a{
   position:absolute;
   z-index:1;
 
-  /* MAIS PARA A DIREITA */
-  right:4%;
+  /* PRATO MAIS PARA A DIREITA */
+  right:-3%;
 
-  /* ALTURA QUE JÁ ESTAVA BOA */
+  /* MANTÉM A MESMA ALTURA */
   top:19%;
 
   width:min(39vw,600px);
@@ -207,10 +207,8 @@ a{
   height:auto;
   max-width:none;
   display:block;
-
   border:0;
   border-radius:0;
-
   transform:none;
   clip-path:none;
 }
@@ -483,7 +481,7 @@ h2{
   background-image:url('../assets/images/galeria-04.jpg');
 }
 
-/* GALERIA COMPLETA - 35 FOTOS */
+/* GALERIA COMPLETA */
 
 .gallery-all{
   display:grid;
@@ -621,7 +619,7 @@ footer{
   display:none;
 }
 
-/* RESPONSIVO */
+/* TABLET */
 
 @media(max-width:1000px){
 
@@ -635,6 +633,8 @@ footer{
     grid-template-columns:repeat(3,1fr);
   }
 }
+
+/* CELULAR */
 
 @media(max-width:800px){
 
