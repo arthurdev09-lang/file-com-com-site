@@ -185,12 +185,13 @@ a{
   position:absolute;
   z-index:1;
 
-  /* PRATO MAIS PARA A DIREITA */
-  right:-3%;
+  /* PRATO MAIS PARA A ESQUERDA */
+  right:10%;
 
-  /* MANTÉM A MESMA ALTURA */
+  /* MESMA ALTURA */
   top:19%;
 
+  /* MESMO TAMANHO */
   width:min(39vw,600px);
 
   transform:none;
@@ -624,7 +625,7 @@ footer{
 @media(max-width:1000px){
 
   .hero-dish-wrap{
-    right:1%;
+    right:5%;
     top:24%;
     width:min(43vw,500px);
   }
