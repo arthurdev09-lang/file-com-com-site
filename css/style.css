@@ -185,13 +185,13 @@ a{
   position:absolute;
   z-index:1;
 
-  /* PRATO EM CIMA DA TÁBUA CENTRAL */
+  /* PRATO EM CIMA DA TÁBUA */
   right:32%;
 
-  /* MANTÉM A ALTURA */
+  /* ALTURA */
   top:19%;
 
-  /* MANTÉM O TAMANHO */
+  /* TAMANHO */
   width:min(39vw,600px);
 
   transform:none;
@@ -625,9 +625,10 @@ footer{
 @media(max-width:1000px){
 
   .hero-dish-wrap{
-    right:5%;
-    top:24%;
-    width:min(43vw,500px);
+    /* MANTÉM O PRATO EM CIMA DA TÁBUA */
+    right:32%;
+    top:19%;
+    width:min(39vw,600px);
   }
 
   .gallery-all{
